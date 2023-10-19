@@ -293,8 +293,11 @@ class _MyHomePageState extends State<MyHomePage> {
                                     Text("S.no- ${data.id}"),
                                     Text(
                                         "Name- ${data.firstName} ${data.lastName}"),
-                                    Text("Email- ${data.email} ", overflow: TextOverflow.ellipsis,
-                                    maxLines: 1,
+                                    SizedBox(
+                                      width: 200,
+                                      child: Text("Email- ${data.email} ", overflow: TextOverflow.ellipsis,
+                                      maxLines: 1,
+                                      ),
                                     ),
                                     Text("Gender- ${data.gender}"),
                                     Text("Domain-${data.domain}"),
