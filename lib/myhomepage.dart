@@ -237,6 +237,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text("Showing ${currentPage + 1} out of 100 Pages"),
 
